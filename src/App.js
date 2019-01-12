@@ -3,22 +3,22 @@ import styled from 'styled-components';
 import content from './content.json';
 
 const Container = styled.div`
-  padding: 50px;
+  padding: 3em;
 `;
 
 const HeroHeadline = styled.h1`
   font-size: 3em;
   font-weight: 700;
-  letter-spacing: .03em;
+  letter-spacing: .03rem;
   line-height: 1.2;
-  margin-bottom: 25px;
-  max-width: 750px;
+  margin-bottom: 1.5rem;
+  max-width: 700px;
 `;
 
 const HeroText = styled.p`
   font-size: 1.5em;
   max-width: 660px;
-  margin-bottom: 25px;
+  margin-bottom: 1.5rem;
 `;
 
 const Email = styled.a`
