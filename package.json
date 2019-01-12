@@ -1,6 +1,8 @@
 {
   "name": "dominickolbe",
   "version": "0.1.0",
+  "author": "Dominic Kolbe <kolbedominic@gmail.com>",
+  "license": "MIT",
   "dependencies": {
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
