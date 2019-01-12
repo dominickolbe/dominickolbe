@@ -12,12 +12,12 @@ const HeroHeadline = styled.h1`
   letter-spacing: .03rem;
   line-height: 1.2;
   margin-bottom: 1.5rem;
-  max-width: 700px;
+  max-width: 680px;
 `;
 
 const HeroText = styled.p`
   font-size: 1.5em;
-  max-width: 660px;
+  max-width: 630px;
   margin-bottom: 1.5rem;
 `;
 
