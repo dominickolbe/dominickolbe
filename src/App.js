@@ -1,19 +1,20 @@
-import React, { Component } from 'react';
-import styled from 'styled-components';
-import content from './content.json';
+import React, { Component } from "react";
+import styled from "styled-components";
+import content from "./content.json";
 
 const Container = styled.div`
   padding: 3em;
 
   a {
-    color: #1d1d1d;
+    color: inherit;
     display: inline-flex;
     text-decoration: none;
     position: relative;
     overflow: hidden;
 
-    &:after, &:before {
-      content: '';
+    &:after,
+    &:before {
+      content: "";
       background: #1d1d1d;
       bottom: 0;
       height: 3px;
@@ -47,7 +48,7 @@ const Container = styled.div`
 const HeroHeadline = styled.h1`
   font-size: 3em;
   font-weight: 700;
-  letter-spacing: .03rem;
+  letter-spacing: 0.03rem;
   line-height: 1.2;
   margin-bottom: 1.5rem;
   max-width: 680px;
@@ -67,9 +68,13 @@ class App extends Component {
   render() {
     return (
       <Container>
-        <HeroHeadline dangerouslySetInnerHTML={{ __html: content.heroheadline }} />
+        <HeroHeadline
+          dangerouslySetInnerHTML={{ __html: content.heroheadline }}
+        />
         <HeroText dangerouslySetInnerHTML={{ __html: content.herosubline }} />
-        <Email href={`mailto:${content.email}?subject=Hello.`}>{content.email}</Email>
+        <Email href={`mailto:${content.email}?subject=Hello.`}>
+          {content.email}
+        </Email>
       </Container>
     );
   }
