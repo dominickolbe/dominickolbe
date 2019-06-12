@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import styled from "styled-components";
 import content from "./content.json";
 
@@ -64,20 +64,14 @@ const Email = styled.a`
   font-size: 1.5em;
 `;
 
-class App extends Component {
-  render() {
-    return (
-      <Container>
-        <HeroHeadline
-          dangerouslySetInnerHTML={{ __html: content.heroheadline }}
-        />
-        <HeroText dangerouslySetInnerHTML={{ __html: content.herosubline }} />
-        <Email href={`mailto:${content.email}?subject=Hello.`}>
-          {content.email}
-        </Email>
-      </Container>
-    );
-  }
-}
+const App = () => (
+  <Container>
+    <HeroHeadline dangerouslySetInnerHTML={{ __html: content.heroheadline }} />
+    <HeroText dangerouslySetInnerHTML={{ __html: content.herosubline }} />
+    <Email href={`mailto:${content.email}?subject=Hello.`}>
+      {content.email}
+    </Email>
+  </Container>
+);
 
 export default App;
