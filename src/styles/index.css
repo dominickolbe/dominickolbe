@@ -12,9 +12,6 @@ body {
   font-family: 'Circular Std', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-h1, h2, h3, p, a {
   color: #1d1d1d;
 }
 
@@ -22,4 +19,10 @@ h1, h2, h3, p, a {
   body {
     font-size: 75%;
   }
+}
+
+
+body.darkmode {
+  background: #21252B;
+  color: #D8D8D8;
 }
