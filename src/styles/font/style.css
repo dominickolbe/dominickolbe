@@ -1,10 +1,10 @@
 
-@font-face {
+/* @font-face {
   font-family: 'Circular Std';
   font-style: normal;
   font-weight: 300;
   src: local('Circular Std Book'), url('CircularStd-Book.woff') format('woff');
-}
+} */
 
 @font-face {
   font-family: 'Circular Std';
@@ -20,9 +20,9 @@
   src: local('Circular Std Bold'), url('CircularStd-Bold.woff') format('woff');
 }
 
-@font-face {
+/* @font-face {
   font-family: 'Circular Std Black';
   font-style: normal;
   font-weight: 800;
   src: local('Circular Std Black'), url('CircularStd-Black.woff') format('woff');
-}
+} */
