@@ -8,6 +8,8 @@
   <img src="screenshot.png" alt="screenshot">
 </p>
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/99a46c4a-cf76-4c42-ac69-c1d800b6de4c/deploy-status)](https://app.netlify.com/sites/dominickolbe/deploys)
+
 ## Preview
 visit my website to see the latest version live and in color
 ```
