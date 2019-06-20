@@ -12,7 +12,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "yarn build"
+    "test": "yarn build",
+    "now-build": "yarn build"
   },
   "eslintConfig": {
     "extends": "react-app"
