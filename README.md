@@ -9,6 +9,8 @@
 </p>
 
 ## Preview
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fdominickolbe%2Fdominickolbe.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fdominickolbe%2Fdominickolbe?ref=badge_shield)
+
 visit my website to see the latest version live and in color
 ```
 https://dominickolbe.dk
@@ -36,3 +38,6 @@ $ yarn build
 MIT License
 
 Copyright (c) 2019 [Dominic Kolbe](https://dominickolbe.dk)
+
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fdominickolbe%2Fdominickolbe.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fdominickolbe%2Fdominickolbe?ref=badge_large)
