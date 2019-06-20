@@ -8,6 +8,7 @@
   <img src="screenshot.png" alt="screenshot">
 </p>
 
+[![Build Status](https://travis-ci.com/dominickolbe/dominickolbe.svg?branch=master)](https://travis-ci.com/dominickolbe/dominickolbe)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/99a46c4a-cf76-4c42-ac69-c1d800b6de4c/deploy-status)](https://app.netlify.com/sites/dominickolbe/deploys)
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fdominickolbe%2Fdominickolbe.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fdominickolbe%2Fdominickolbe?ref=badge_shield)
 
