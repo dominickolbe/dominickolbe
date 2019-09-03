@@ -1,5 +1,5 @@
-import React from "react";
 import styled from "styled-components";
+import React from "react";
 import content from "./content.json";
 
 const Container = styled.div`
@@ -8,9 +8,9 @@ const Container = styled.div`
   a {
     color: inherit;
     display: inline-flex;
-    text-decoration: none;
-    position: relative;
     overflow: hidden;
+    position: relative;
+    text-decoration: none;
 
     &:after,
     &:before {
@@ -56,8 +56,8 @@ const HeroHeadline = styled.h1`
 
 const HeroText = styled.p`
   font-size: 1.5em;
-  max-width: 630px;
   margin-bottom: 1.5rem;
+  max-width: 630px;
 `;
 
 const Email = styled.a`
