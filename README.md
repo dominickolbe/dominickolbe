@@ -44,4 +44,4 @@ $ yarn build
 
 MIT License
 
-Copyright (c) 2019 [Dominic Kolbe](https://dominickolbe.dk)
+Copyright (c) 2019-2020 [Dominic Kolbe](https://dominickolbe.dk)
