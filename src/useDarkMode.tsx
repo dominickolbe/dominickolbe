@@ -7,11 +7,19 @@ export function useDarkMode() {
   function setModeCallback() {
     setMode(media.matches);
   }
-  media.addEventListener("change", setModeCallback);
+  try {
+    media.addEventListener("change", setModeCallback);
+  } catch {
+    // safari - no fallback needed
+  }
 
   useEffect(() => {
     return () => {
-      media.removeEventListener("change", setModeCallback);
+      try {
+        media.removeEventListener("change", setModeCallback);
+      } catch {
+        // safari - no fallback needed
+      }
     };
   });
 
