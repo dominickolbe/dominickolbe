@@ -1,0 +1,28 @@
+@font-face {
+  font-family: Gotham;
+  src: url("assets/fonts/Gotham/Gotham-Book.otf");
+}
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Gotham", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  padding: 0;
+}
+@media only screen and (max-width: 767px) {
+  body {
+    font-size: 75%;
+  }
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
