@@ -8,11 +8,11 @@
 
 ## Preview
 
-<a href="https://dominickolbe.dk" target="_blank">live preview</a>
+[see live version here](https://dominickolbe.dk)
 
 visit my website to see the latest version live and in color
 
-```https
+```http
 https://dominickolbe.dk
 ```
 
