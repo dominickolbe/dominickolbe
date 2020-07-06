@@ -4,15 +4,15 @@
   <p align="center">source of my personal website, lol<p>
 </p>
 
-<p align="center">
-  <img src="screenshot.png" alt="screenshot">
-</p>
+![Preview](https://github.com/dominickolbe/dominickolbe/blob/master/screenshot.png?raw=true "dominickolbe.dk")
 
 ## Preview
 
+<a href="https://dominickolbe.dk" target="_blank">live preview</a>
+
 visit my website to see the latest version live and in color
 
-```
+```https
 https://dominickolbe.dk
 ```
 
@@ -20,24 +20,24 @@ https://dominickolbe.dk
 
 make sure you have installed all dependencies before moving on
 
-```
-$ yarn
+```bash
+yarn install
 ```
 
 ## Development
 
 develop application
 
-```
-$ yarn start
+```bash
+yarn start
 ```
 
 ## Production
 
 build application
 
-```
-$ yarn build
+```bash
+yarn build
 ```
 
 ## License
