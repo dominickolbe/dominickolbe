@@ -1,7 +1,9 @@
 {
   "name": "dominickolbe",
   "version": "2.0.0",
+  "license": "MIT",
   "author": "Dominic Kolbe <kolbedominic@gmail.com>",
+  "repository": "git@github.com:dominickolbe/dominickolbe.git",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
