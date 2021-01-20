@@ -40,8 +40,8 @@ build application
 yarn build
 ```
 
-## License
+---
 
-MIT License
+## The MIT License (MIT)
 
-Copyright (c) 2019-2020 [Dominic Kolbe](https://dominickolbe.dk)
+Copyright © 2021 [Dominic Kolbe](https://dominickolbe.dk) :de:
