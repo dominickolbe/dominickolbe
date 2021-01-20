@@ -8,6 +8,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "yarn build",
+    "prettier-check": "prettier --check src/",
     "now-build": "yarn build"
   },
   "dependencies": {
