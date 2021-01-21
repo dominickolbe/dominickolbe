@@ -1,6 +1,5 @@
-import { css } from "emotion";
+import { css } from "@emotion/css";
 import React from "react";
-
 import content from "./assets/content.json";
 import { useDarkMode } from "./useDarkMode";
 
