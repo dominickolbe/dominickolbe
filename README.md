@@ -42,6 +42,6 @@ yarn build
 
 ---
 
-## The MIT License (MIT)
+## LICENSE
 
 Copyright © 2021 [Dominic Kolbe](https://dominickolbe.dk) :de:
