@@ -17,13 +17,13 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       - name: yarn install
-        run: yarn install
-
-      - name: yarn build
-        run: yarn build
+        run: yarn install --frozen-lockfile
 
       - name: yarn prettier-check
         run: yarn prettier-check
+
+      - name: yarn build
+        run: yarn build
 
         env:
           CI: true
