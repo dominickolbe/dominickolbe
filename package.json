@@ -8,7 +8,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "yarn build",
-    "prettier-check": "prettier --check src/**/*"
+    "prettier:check": "prettier --check src/**/*",
+    "prettier:fix": "prettier --write src/**/*"
   },
   "dependencies": {
     "@emotion/css": "^11.1.3",
