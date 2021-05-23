@@ -1,33 +1,11 @@
 import { css } from "@emotion/css";
 import React from "react";
 import content from "./assets/content.json";
-import { useDarkMode } from "./useDarkMode";
-
-const ThemeLight = css`
-  background: #fff;
-  h2,
-  p,
-  a {
-    color: #1b262c;
-  }
-`;
-
-const ThemeDark = css`
-  background: #1b262c;
-  h2,
-  p,
-  a {
-    color: #fff;
-  }
-`;
 
 export const App = () => {
-  const isDarkMode = useDarkMode();
-
   return (
     <div
       className={css`
-        ${isDarkMode ? ThemeDark : ThemeLight};
         min-height: 100vh;
         padding: 2em;
         width: 100%;

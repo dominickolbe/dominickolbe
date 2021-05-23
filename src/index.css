@@ -6,13 +6,17 @@
 * {
   box-sizing: border-box;
 }
+
 body {
   font-family: "Gotham", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   margin: 0;
   padding: 0;
+  background-color: #1b262c;
+  color: white;
 }
+
 @media only screen and (max-width: 767px) {
   body {
     font-size: 75%;
@@ -22,7 +26,9 @@ body {
 h1,
 h2,
 h3,
-p {
+p,
+a {
   margin: 0;
   padding: 0;
+  color: white;
 }

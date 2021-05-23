@@ -16,17 +16,29 @@ visit my website to see the latest version live and in color
 https://dominickolbe.dk
 ```
 
-## Install dependencies
+---
 
-make sure you have installed all dependencies before moving on
+## Getting Started
+
+### Prerequisites
+
+This project is created and tested with the following setup:
+
+- macOS Big Sur version 11.4
+- node v14.17.0
+- yarn v1.22.10
+
+## Development
+
+1. create your `.env` file based on the `.env.example`
+
+2. install dependencies
 
 ```bash
 yarn install
 ```
 
-## Development
-
-develop application
+3. start frontend app
 
 ```bash
 yarn start
@@ -34,10 +46,32 @@ yarn start
 
 ## Production
 
-build application
+1. create your `.env` file based on the `.env.example`
+
+2. install dependencies
+
+```bash
+yarn install
+```
+
+3. build frontend app
 
 ```bash
 yarn build
+```
+
+## Testing
+
+run tests
+
+```bash
+yarn test
+```
+
+run prettier
+
+```bash
+yarn prettier:check
 ```
 
 ---
