@@ -1,4 +1,4 @@
-name: CI
+name: Build and test
 
 on:
   push:
@@ -28,8 +28,8 @@ jobs:
       - name: Install, build and test
         run: |
           yarn install --frozen-lockfile
-          yarn prettier:check
           yarn build
+          yarn test
 
         env:
           CI: true

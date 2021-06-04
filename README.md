@@ -24,7 +24,7 @@ https://dominickolbe.dk
 
 This project is created and tested with the following setup:
 
-- macOS Big Sur version 11.4
+- macOS Big Sur version 11.5 Beta
 - node v14.17.0
 - yarn v1.22.10
 
