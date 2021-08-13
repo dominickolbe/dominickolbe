@@ -1,3 +1,5 @@
+![GitHub package.json version](https://img.shields.io/github/package-json/v/dominickolbe/dominickolbe)
+
 <p align="center">
   <p align="center">:raised_hands: :raised_hands: :raised_hands:</p>
   <h3 align="center">dominickolbe</h3>
