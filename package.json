@@ -2,8 +2,13 @@
   "name": "dominickolbe",
   "version": "2.6.1",
   "license": "MIT",
-  "author": "Dominic Kolbe <kolbedominic@gmail.com>",
+  "author": {
+    "name": "Dominic Kolbe",
+    "email": "kolbedominic@gmail.com",
+    "url": "https://dominickolbe.dk"
+  },
   "repository": "git@github.com:dominickolbe/dominickolbe.git",
+  "homepage": "https://github.com/dominickolbe/dominickolbe#readme",
   "scripts": {
     "start": "REACT_APP_VERSION=$npm_package_version REACT_APP_BUILD_TIME=$(date '+%x %X') react-scripts start",
     "build": "REACT_APP_VERSION=$npm_package_version REACT_APP_BUILD_TIME=$(date '+%x %X') react-scripts build",
