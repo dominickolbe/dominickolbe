@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.8.1](https://github.com/dominickolbe/dominickolbe/compare/v2.8.0...v2.8.1) (2021-08-17)
+
+
+### Features
+
+* update preview image ([c8a6659](https://github.com/dominickolbe/dominickolbe/commit/c8a66591450b73712dcb2bd56b9084f5378c44da))
+
 ## [2.8.0](https://github.com/dominickolbe/dominickolbe/compare/v2.7.0...v2.8.0) (2021-08-17)
 
 
