@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.8.0](https://github.com/dominickolbe/dominickolbe/compare/v2.7.0...v2.8.0) (2021-08-17)
+
+
+### Bug Fixes
+
+* bug caused by homepage tag ([e36e3fd](https://github.com/dominickolbe/dominickolbe/commit/e36e3fda9520ff87d93443934f3439061e890846))
+
 ## [2.7.0](https://github.com/dominickolbe/dominickolbe/compare/v2.6.1...v2.7.0) (2021-08-17)
 
 
