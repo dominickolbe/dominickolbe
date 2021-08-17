@@ -8,7 +8,7 @@
   <p align="center">source of my personal website, lol<p>
 </p>
 
-![Preview](https://github.com/dominickolbe/dominickolbe/blob/master/screenshot.png?raw=true "dominickolbe.dk")
+![Preview](https://github.com/dominickolbe/dominickolbe/blob/master/preview.png?raw=true "dominickolbe.dk")
 
 ## Preview
 
