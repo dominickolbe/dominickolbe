@@ -29,7 +29,7 @@ https://dominickolbe.dk
 This project is created and tested with the following setup:
 
 - macOS Monterey Version 12.0 Beta
-- node v16.6.2
+- node v16.7.0
 - npm v7.20.3
 - yarn v1.22.11
 
