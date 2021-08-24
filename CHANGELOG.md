@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.8.2](https://github.com/dominickolbe/dominickolbe/compare/v2.8.1...v2.8.2) (2021-08-24)
+
+
+### Documentation
+
+* README  update node version ([881c400](https://github.com/dominickolbe/dominickolbe/commit/881c40059b253bff088d61882d13f8a605ab00c3))
+
+
+### Chores
+
+* update dependencies ([5fe3f7c](https://github.com/dominickolbe/dominickolbe/commit/5fe3f7ceba253a37914e141530dd1e0cea652b3e))
+
 ### [2.8.1](https://github.com/dominickolbe/dominickolbe/compare/v2.8.0...v2.8.1) (2021-08-17)
 
 
