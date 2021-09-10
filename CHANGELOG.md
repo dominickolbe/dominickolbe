@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.8.5](https://github.com/dominickolbe/dominickolbe/compare/v2.8.4...v2.8.5) (2021-09-10)
+
+
+### Bug Fixes
+
+* github action node version ([56037e2](https://github.com/dominickolbe/dominickolbe/commit/56037e2408694fbe1f3583cb1b18e47d0792e515))
+
+
+### Chores
+
+* rename github action ([caed43d](https://github.com/dominickolbe/dominickolbe/commit/caed43d64a6899382da9391a6226b6e024839b59))
+* yarn.lock ([31a59c6](https://github.com/dominickolbe/dominickolbe/commit/31a59c64b2b387ff6ac0c744dddc15b180ddde08))
+
 ### [2.8.4](https://github.com/dominickolbe/dominickolbe/compare/v2.8.3...v2.8.4) (2021-09-10)
 
 
