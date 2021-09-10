@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.8.6](https://github.com/dominickolbe/dominickolbe/compare/v2.8.5...v2.8.6) (2021-09-10)
+
+
+### Bug Fixes
+
+* github action node version ([5d8b836](https://github.com/dominickolbe/dominickolbe/commit/5d8b8364e869b43aa9c5cfa8a69d1175df036973))
+
 ### [2.8.5](https://github.com/dominickolbe/dominickolbe/compare/v2.8.4...v2.8.5) (2021-09-10)
 
 
