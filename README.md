@@ -1,4 +1,4 @@
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/dominickolbe/dominickolbe/Test?label=tests)
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/dominickolbe/dominickolbe/Tests?label=tests)
 ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/dominickolbe/dominickolbe/Release?label=release)
 ![GitHub package.json version](https://img.shields.io/github/package-json/v/dominickolbe/dominickolbe)
 
