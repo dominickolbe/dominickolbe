@@ -83,4 +83,4 @@ yarn prettier:check
 
 ## LICENSE
 
-Copyright © 2021 [Dominic Kolbe](https://dominickolbe.dk) :de:
+Copyright © 2022 [Dominic Kolbe](https://dominickolbe.dk) :de:
