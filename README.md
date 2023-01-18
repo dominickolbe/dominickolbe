@@ -28,10 +28,10 @@ https://dominickolbe.dk
 
 This project is created and tested with the following setup:
 
-- macOS Monterey Version 12.0 Beta
-- node v16.7.0
-- npm v7.20.3
-- yarn v1.22.11
+- macOS Ventura Version 13.1
+- node v18.13.0
+- npm v9.3.1
+- yarn v1.22.19
 
 ## Development
 
@@ -83,4 +83,4 @@ yarn prettier:check
 
 ## LICENSE
 
-Copyright © 2022 [Dominic Kolbe](https://dominickolbe.dk) :de:
+Copyright © 2023 [Dominic Kolbe](https://dominickolbe.dk) :de:
