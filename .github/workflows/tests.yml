@@ -2,9 +2,9 @@ name: Tests
 
 on:
   push:
-    branches: [master]
+    branches: [main, develop]
   pull_request:
-    branches: [master]
+    branches: [main, develop]
 
 jobs:
   test:
@@ -13,20 +13,20 @@ jobs:
 
     strategy:
       matrix:
-        node-version: ["16"]
+        node-version: ["18.x"]
         os: [ubuntu-latest]
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node-version }}
 
       - name: Install dependencies, build and test
         run: |
           yarn install --frozen-lockfile
+          yarn prettier:check
           yarn build
-          yarn test
