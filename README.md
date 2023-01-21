@@ -1,6 +1,6 @@
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/dominickolbe/dominickolbe/Tests?label=tests)
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/dominickolbe/dominickolbe/Release?label=release)
-![GitHub package.json version](https://img.shields.io/github/package-json/v/dominickolbe/dominickolbe)
+![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/dominickolbe/dominickolbe/tests.yml?label=tests&style=for-the-badge)
+![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/dominickolbe/dominickolbe/release.yml?label=release&style=for-the-badge)
+![GitHub package.json version](https://img.shields.io/github/package-json/v/dominickolbe/dominickolbe?style=for-the-badge)
 
 <p align="center">
   <p align="center">:raised_hands: :raised_hands: :raised_hands:</p>
@@ -28,7 +28,7 @@ https://dominickolbe.dk
 
 This project is created and tested with the following setup:
 
-- macOS Ventura Version 13.1
+- macOS Ventura Version 13.1 (Apple M2)
 - node v18.13.0
 - npm v9.3.1
 - yarn v1.22.19
@@ -77,6 +77,18 @@ run prettier
 
 ```bash
 yarn prettier:check
+```
+
+## Release
+
+Update changelog and tag release
+
+```bash
+npx standard-version
+```
+
+```bash
+git push --follow-tags origin master
 ```
 
 ---
