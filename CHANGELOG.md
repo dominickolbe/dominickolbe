@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.10.1](https://github.com/dominickolbe/dominickolbe/compare/v2.10.0...v2.10.1) (2023-01-21)
+
+
+### Chores
+
+* update github actions, devDependencies ([cb7d48c](https://github.com/dominickolbe/dominickolbe/commit/cb7d48c28f926acadbf07797be38452681061e89))
+
 ### [2.8.10](https://github.com/dominickolbe/dominickolbe/compare/v2.8.9...v2.8.10) (2021-11-11)
 
 
