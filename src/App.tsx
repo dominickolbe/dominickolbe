@@ -1,5 +1,4 @@
 import { css } from "@emotion/css";
-import React from "react";
 import content from "./assets/content.json";
 
 export const App = () => (
@@ -14,9 +13,10 @@ export const App = () => (
       className={css`
         font-size: 3em;
         font-weight: bold;
-        line-height: 1.05;
+        line-height: 1.1;
         margin-bottom: 1.5rem;
         max-width: 690px;
+        letter-spacing: 1.1px;
       `}
     >
       {content.headline}
@@ -27,6 +27,7 @@ export const App = () => (
         line-height: 1.3;
         margin-bottom: 1.5rem;
         max-width: 680px;
+        letter-spacing: 1.15px;
       `}
       dangerouslySetInnerHTML={{ __html: content.paragraph }}
     />

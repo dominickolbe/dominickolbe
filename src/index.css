@@ -1,6 +1,11 @@
 @font-face {
   font-family: Gotham;
-  src: url("assets/fonts/Gotham/Gotham-Book.otf");
+  src:
+    url("assets/fonts/Gotham/Gotham-Book.woff2") format("woff2"),
+    url("assets/fonts/Gotham/Gotham-Book.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 * {
@@ -13,7 +18,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   margin: 0;
   padding: 0;
-  background-color: #1b262c;
+  background-color: #0b0a1e;
   color: white;
 }
 
@@ -31,4 +36,8 @@ a {
   margin: 0;
   padding: 0;
   color: white;
+}
+
+a {
+  font-weight: bold;
 }
