@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.11.0](https://github.com/dominickolbe/dominickolbe/compare/v2.10.8...v2.11.0) (2023-07-18)
+
+
+### Features
+
+* update design and optimize webfont ([9d6ecc0](https://github.com/dominickolbe/dominickolbe/commit/9d6ecc0b77edddda11c66953645c41a87bc28272))
+
 ### [2.10.8](https://github.com/dominickolbe/dominickolbe/compare/v2.10.7...v2.10.8) (2023-07-16)
 
 
