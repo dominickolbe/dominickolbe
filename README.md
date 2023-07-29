@@ -28,9 +28,9 @@ https://dominickolbe.dk
 
 This project is created and tested with the following setup:
 
-- macOS Ventura Version 13.1 (Apple M2)
-- node v18.13.0
-- npm v9.3.1
+- macOS Sonoma Version 14.0 (Beta)
+- node v18.16.0
+- npm v9.6.5
 - yarn v1.22.19
 
 ## Development
