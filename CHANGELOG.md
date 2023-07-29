@@ -2,6 +2,30 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.12.0](https://github.com/dominickolbe/dominickolbe/compare/v2.11.0...v2.12.0) (2023-07-29)
+
+
+### Features
+
+* update links and add tracker ([9d2c819](https://github.com/dominickolbe/dominickolbe/commit/9d2c819400e9992e96e5b25cd009462fe13168d1))
+
+
+### Bug Fixes
+
+* link ([bff06f0](https://github.com/dominickolbe/dominickolbe/commit/bff06f04647abf2d63561d6ca13e182486d6b867))
+* update tracker ([51079db](https://github.com/dominickolbe/dominickolbe/commit/51079dbbb885cf49016d5d8f67e4375a180c8e1b))
+
+
+### Documentation
+
+* README ([3da8e6b](https://github.com/dominickolbe/dominickolbe/commit/3da8e6b703b2eb43adba25cc6844360ca0c0b7b1))
+
+
+### Chores
+
+* update dependencies ([8ac95b8](https://github.com/dominickolbe/dominickolbe/commit/8ac95b826dec253bf2e240bb30532342c8ced190))
+* update preview ([06fac86](https://github.com/dominickolbe/dominickolbe/commit/06fac86fd3b7596e13cc614362e9ce2f2a16946e))
+
 ## [2.11.0](https://github.com/dominickolbe/dominickolbe/compare/v2.10.8...v2.11.0) (2023-07-18)
 
 
