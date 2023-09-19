@@ -28,10 +28,10 @@ https://dominickolbe.dk
 
 This project is created and tested with the following setup:
 
-- macOS Sonoma Version 14.0 (Beta)
-- node v18.16.0
-- npm v9.6.5
+- macOS Ventura v13.5.2
+- node v18.18.0
 - yarn v1.22.19
+- npm v10.1.0
 
 ## Development
 
