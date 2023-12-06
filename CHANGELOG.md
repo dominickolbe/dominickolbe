@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.0.0](https://github.com/dominickolbe/dominickolbe/compare/v2.13.1...v3.0.0) (2023-12-06)
+
+
+### ⚠ BREAKING CHANGES
+
+* migration to pnpm, update dependencies and workflows
+
+### Features
+
+* update design ([d359561](https://github.com/dominickolbe/dominickolbe/commit/d359561d8bb8c908add1aded7dec8e12118ffcfe))
+
+
+### Refactoring
+
+* migration to pnpm, update dependencies and workflows ([d4b8aeb](https://github.com/dominickolbe/dominickolbe/commit/d4b8aeb77cb504729a2b4e6b5e5cb0084dd5ea17))
+
 ### [2.13.1](https://github.com/dominickolbe/dominickolbe/compare/v2.13.0...v2.13.1) (2023-11-03)
 
 ### Chores
