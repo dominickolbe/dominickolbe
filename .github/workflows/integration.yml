@@ -1,13 +1,12 @@
-name: Release
+name: Integration
 
 on:
   push:
-    tags:
-      - v*.*.*
+    branches: [main]
 
 jobs:
-  release:
-    name: Release
+  integration:
+    name: Test on Node.js ${{ matrix.node-version }} and ${{ matrix.os }}
     runs-on: ${{ matrix.os }}
 
     strategy:
@@ -47,10 +46,8 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile --recursive
 
-      - name: Generate Release Body
-        run: npx extract-changelog-release > RELEASE_BODY.md
+      - name: Run tests - Check formatting with Prettier
+        run: pnpm test
 
-      - name: Create GitHub Release
-        uses: ncipollo/release-action@v1
-        with:
-          bodyFile: "RELEASE_BODY.md"
+      - name: Build application
+        run: pnpm build

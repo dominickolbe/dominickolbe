@@ -28,10 +28,11 @@ https://dominickolbe.dk
 
 This project is created and tested with the following setup:
 
-- macOS Ventura v13.5.2
-- node v18.18.0
-- yarn v1.22.19
-- npm v10.1.0
+- macOS Sonoma v14.2
+- node v18.19.0
+- yarn v1.22.21
+- npm v10.2.4
+- pnpm v8.11.0
 
 ## Development
 
@@ -40,13 +41,13 @@ This project is created and tested with the following setup:
 2. install dependencies
 
 ```bash
-yarn install
+pnpm install
 ```
 
 3. start frontend app
 
 ```bash
-yarn start
+pnpm start
 ```
 
 ## Production
@@ -56,13 +57,13 @@ yarn start
 2. install dependencies
 
 ```bash
-yarn install
+pnpm install
 ```
 
 3. build frontend app
 
 ```bash
-yarn build
+pnpm build
 ```
 
 ## Testing
@@ -70,13 +71,13 @@ yarn build
 run tests
 
 ```bash
-yarn test
+pnpm test
 ```
 
 run prettier
 
 ```bash
-yarn prettier:check
+pnpm prettier:check
 ```
 
 ## Release

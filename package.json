@@ -10,28 +10,24 @@
   "repository": "git@github.com:dominickolbe/dominickolbe.git",
   "scripts": {
     "start": "REACT_APP_VERSION=$npm_package_version REACT_APP_BUILD_TIME=$(date '+%c') react-scripts start",
-    "build": "REACT_APP_VERSION=$npm_package_version REACT_APP_BUILD_TIME=$(date '+%c') react-scripts build",
-    "prettier:check": "prettier --check src/**/*.{ts,tsx,json}",
-    "prettier:fix": "prettier --write src/**/*.{ts,tsx,json}",
-    "test": "yarn run prettier:check"
+    "build": "REACT_APP_VERSION=$npm_package_version REACT_APP_BUILD_TIME=$(date '+%c') BUILD_PATH=./dist react-scripts build",
+    "prettier:check": "prettier --check \"**/*.{js,jsx,ts,tsx,json,css,md,html}\"",
+    "prettier:fix": "prettier --write \"**/*.{js,jsx,ts,tsx,json,css,md,html}\"",
+    "test": "pnpm run prettier:check"
   },
   "dependencies": {
     "@emotion/css": "11.11.2",
+    "@vercel/analytics": "1.1.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-scripts": "5.0.1"
   },
   "devDependencies": {
-    "@types/node": "20.8.10",
-    "@types/react": "18.2.34",
-    "@types/react-dom": "18.2.14",
-    "prettier": "3.0.3",
-    "typescript": "5.2.2"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app"
-    ]
+    "@types/node": "20.10.3",
+    "@types/react": "18.2.42",
+    "@types/react-dom": "18.2.17",
+    "prettier": "3.1.0",
+    "typescript": "5.3.2"
   },
   "browserslist": {
     "production": [
