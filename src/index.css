@@ -1,19 +1,9 @@
-@font-face {
-  font-family: Gotham;
-  src:
-    url("assets/fonts/Gotham/Gotham-Book.woff2") format("woff2"),
-    url("assets/fonts/Gotham/Gotham-Book.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
 * {
   box-sizing: border-box;
 }
 
 body {
-  font-family: "Gotham", sans-serif;
+  font-family: "Fira Code", monospace;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   margin: 0;
