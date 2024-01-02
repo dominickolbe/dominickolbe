@@ -11,8 +11,8 @@
   "scripts": {
     "start": "REACT_APP_VERSION=$npm_package_version REACT_APP_BUILD_TIME=$(date '+%c') react-scripts start",
     "build": "REACT_APP_VERSION=$npm_package_version REACT_APP_BUILD_TIME=$(date '+%c') BUILD_PATH=./dist react-scripts build",
-    "prettier:check": "prettier --check \"**/*.{js,jsx,ts,tsx,json,css,md,html}\"",
-    "prettier:fix": "prettier --write \"**/*.{js,jsx,ts,tsx,json,css,md,html}\"",
+    "prettier:check": "prettier --check \"**/*.{js,jsx,ts,tsx,json,css,html}\"",
+    "prettier:fix": "prettier --write \"**/*.{js,jsx,ts,tsx,json,css,html}\"",
     "test": "pnpm run prettier:check"
   },
   "dependencies": {
