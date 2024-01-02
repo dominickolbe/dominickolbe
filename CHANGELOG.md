@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [3.0.1](https://github.com/dominickolbe/dominickolbe/compare/v3.0.0...v3.0.1) (2024-01-02)
+
+
+### Documentation
+
+* README ([dcff81e](https://github.com/dominickolbe/dominickolbe/commit/dcff81e3dd96747f6bd06a0d4f00b6140cd87ee0))
+
+
+### Chores
+
+* update dependencies ([669d10f](https://github.com/dominickolbe/dominickolbe/commit/669d10f009f83381ffdf5d6014f9d7e668849c15))
+* update year ([7ab8996](https://github.com/dominickolbe/dominickolbe/commit/7ab8996ab8f5a371d3a4a398991856510f605a3d))
+
 ## [3.0.0](https://github.com/dominickolbe/dominickolbe/compare/v2.13.1...v3.0.0) (2023-12-06)
 
 
