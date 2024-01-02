@@ -4,39 +4,34 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [3.0.2](https://github.com/dominickolbe/dominickolbe/compare/v3.0.1...v3.0.2) (2024-01-02)
 
-
 ### Bug Fixes
 
-* README ([93fd5f4](https://github.com/dominickolbe/dominickolbe/commit/93fd5f4788a2804a94ba2dde6290a5312e30431d))
+- README ([93fd5f4](https://github.com/dominickolbe/dominickolbe/commit/93fd5f4788a2804a94ba2dde6290a5312e30431d))
 
 ### [3.0.1](https://github.com/dominickolbe/dominickolbe/compare/v3.0.0...v3.0.1) (2024-01-02)
 
-
 ### Documentation
 
-* README ([dcff81e](https://github.com/dominickolbe/dominickolbe/commit/dcff81e3dd96747f6bd06a0d4f00b6140cd87ee0))
-
+- README ([dcff81e](https://github.com/dominickolbe/dominickolbe/commit/dcff81e3dd96747f6bd06a0d4f00b6140cd87ee0))
 
 ### Chores
 
-* update dependencies ([669d10f](https://github.com/dominickolbe/dominickolbe/commit/669d10f009f83381ffdf5d6014f9d7e668849c15))
-* update year ([7ab8996](https://github.com/dominickolbe/dominickolbe/commit/7ab8996ab8f5a371d3a4a398991856510f605a3d))
+- update dependencies ([669d10f](https://github.com/dominickolbe/dominickolbe/commit/669d10f009f83381ffdf5d6014f9d7e668849c15))
+- update year ([7ab8996](https://github.com/dominickolbe/dominickolbe/commit/7ab8996ab8f5a371d3a4a398991856510f605a3d))
 
 ## [3.0.0](https://github.com/dominickolbe/dominickolbe/compare/v2.13.1...v3.0.0) (2023-12-06)
 
-
 ### ⚠ BREAKING CHANGES
 
-* migration to pnpm, update dependencies and workflows
+- migration to pnpm, update dependencies and workflows
 
 ### Features
 
-* update design ([d359561](https://github.com/dominickolbe/dominickolbe/commit/d359561d8bb8c908add1aded7dec8e12118ffcfe))
-
+- update design ([d359561](https://github.com/dominickolbe/dominickolbe/commit/d359561d8bb8c908add1aded7dec8e12118ffcfe))
 
 ### Refactoring
 
-* migration to pnpm, update dependencies and workflows ([d4b8aeb](https://github.com/dominickolbe/dominickolbe/commit/d4b8aeb77cb504729a2b4e6b5e5cb0084dd5ea17))
+- migration to pnpm, update dependencies and workflows ([d4b8aeb](https://github.com/dominickolbe/dominickolbe/commit/d4b8aeb77cb504729a2b4e6b5e5cb0084dd5ea17))
 
 ### [2.13.1](https://github.com/dominickolbe/dominickolbe/compare/v2.13.0...v2.13.1) (2023-11-03)
 
