@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.1.0](https://github.com/dominickolbe/dominickolbe/compare/v3.0.2...v3.1.0) (2024-01-02)
+
+
+### Features
+
+* exclude md from prettier ([c48a57b](https://github.com/dominickolbe/dominickolbe/commit/c48a57b0f121a3872cd964c7f315201cdca16e33))
+
+
+### Bug Fixes
+
+* prettier ([d73536f](https://github.com/dominickolbe/dominickolbe/commit/d73536f17516c34b9c073d2f55e5f6784be4dc11))
+
 ### [3.0.2](https://github.com/dominickolbe/dominickolbe/compare/v3.0.1...v3.0.2) (2024-01-02)
 
 ### Bug Fixes
