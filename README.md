@@ -1,4 +1,4 @@
-![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/dominickolbe/dominickolbe/tests.yml?label=tests&style=for-the-badge)
+![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/dominickolbe/dominickolbe/integration.yml?label=integration&style=for-the-badge)
 ![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/dominickolbe/dominickolbe/release.yml?label=release&style=for-the-badge)
 ![GitHub package.json version](https://img.shields.io/github/package-json/v/dominickolbe/dominickolbe?style=for-the-badge)
 
@@ -8,7 +8,7 @@
   <p align="center">source of my personal website, lol<p>
 </p>
 
-![Preview](https://github.com/dominickolbe/dominickolbe/blob/master/preview.png?raw=true "dominickolbe.dk")
+![Preview](https://github.com/dominickolbe/dominickolbe/blob/main/preview.png?raw=true "dominickolbe.dk")
 
 ## Preview
 
