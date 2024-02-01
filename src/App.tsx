@@ -1,4 +1,5 @@
 import { css } from "@emotion/css";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import content from "./assets/content.json";
 import { APP_BUILD_TIME, APP_VERSION } from "./constants";
 
@@ -12,6 +13,7 @@ export const App = () => (
       flex-direction: column;
     `}
   >
+    <SpeedInsights />
     <h2
       className={css`
         font-size: 2.5em;
