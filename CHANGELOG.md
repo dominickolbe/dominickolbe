@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.2.0](https://github.com/dominickolbe/dominickolbe/compare/v3.1.3...v3.2.0) (2024-02-01)
+
+
+### Features
+
+* Add @vercel/speed-insights package ([45d3ef6](https://github.com/dominickolbe/dominickolbe/commit/45d3ef6f71536d6342f186c7aac8aafa8f074a3d))
+
+
+### Bug Fixes
+
+* Remove @vercel/speed-insights dependency and import from App.tsx ([aa0a6f0](https://github.com/dominickolbe/dominickolbe/commit/aa0a6f0f73815ff72648e29985681e47d680f928))
+
 ### [3.1.3](https://github.com/dominickolbe/dominickolbe/compare/v3.1.2...v3.1.3) (2024-02-01)
 
 
