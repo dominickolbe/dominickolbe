@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [3.2.1](https://github.com/dominickolbe/dominickolbe/compare/v3.2.0...v3.2.1) (2024-02-05)
+
+
+### Chores
+
+* Update devDependencies in package.json ([84eca94](https://github.com/dominickolbe/dominickolbe/commit/84eca94031f4500b2b01ea2a1055b9d663e7ff32))
+
 ## [3.2.0](https://github.com/dominickolbe/dominickolbe/compare/v3.1.3...v3.2.0) (2024-02-01)
 
 
