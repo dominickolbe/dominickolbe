@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [3.2.2](https://github.com/dominickolbe/dominickolbe/compare/v3.2.1...v3.2.2) (2024-02-07)
+
+
+### Bug Fixes
+
+* prettier ([150e2e9](https://github.com/dominickolbe/dominickolbe/commit/150e2e98b0d85231a7297c5a1409d8c03a8a877a))
+
+
+### Chores
+
+* Update dependencies in package.json and pnpm-lock.yaml ([2d1fa30](https://github.com/dominickolbe/dominickolbe/commit/2d1fa30f16c54e50bcb3f7a4ba8de2016a006a9f))
+
 ### [3.2.1](https://github.com/dominickolbe/dominickolbe/compare/v3.2.0...v3.2.1) (2024-02-05)
 
 
