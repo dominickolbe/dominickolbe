@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.3.0](https://github.com/dominickolbe/dominickolbe/compare/v3.2.2...v3.3.0) (2024-02-10)
+
+
+### Features
+
+* Add Plausible analytics script ([c172b58](https://github.com/dominickolbe/dominickolbe/commit/c172b58dcd30f03d9fa4b94d0e172975b661b413))
+
+
+### Chores
+
+* Update devDependencies in package.json ([b97f66a](https://github.com/dominickolbe/dominickolbe/commit/b97f66acd0f994ca6698ab24b56019ead491aa86))
+
 ### [3.2.2](https://github.com/dominickolbe/dominickolbe/compare/v3.2.1...v3.2.2) (2024-02-07)
 
 
