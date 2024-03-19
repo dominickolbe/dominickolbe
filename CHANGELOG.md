@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.4.0](https://github.com/dominickolbe/dominickolbe/compare/v3.3.3...v3.4.0) (2024-03-19)
+
+
+### Features
+
+* Add padding to App component ([60d7442](https://github.com/dominickolbe/dominickolbe/commit/60d7442c1bbe8e6859b297364d947dd13ecc2aa9))
+
+
+### Chores
+
+* Update devDependencies in package.json ([bded5a8](https://github.com/dominickolbe/dominickolbe/commit/bded5a8ae0ec90c6c73d43e20fe82d4aabbb96b7))
+
 ### [3.3.3](https://github.com/dominickolbe/dominickolbe/compare/v3.3.2...v3.3.3) (2024-03-18)
 
 
