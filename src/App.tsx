@@ -50,6 +50,7 @@ export const App = () => (
         font-size: 0.75em;
         margin-top: auto;
         text-align: center;
+        padding-top: 2em;
       `}
     >
       {APP_BUILD_TIME} |{" "}
