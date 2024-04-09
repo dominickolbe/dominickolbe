@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [3.4.4](https://github.com/dominickolbe/dominickolbe/compare/v3.4.3...v3.4.4) (2024-04-09)
+
 ### [3.4.3](https://github.com/dominickolbe/dominickolbe/compare/v3.4.2...v3.4.3) (2024-04-05)
 
 ### [3.4.2](https://github.com/dominickolbe/dominickolbe/compare/v3.4.1...v3.4.2) (2024-04-01)
