@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.5.0](https://github.com/dominickolbe/dominickolbe/compare/v3.4.4...v3.5.0) (2024-04-19)
+
+
+### Features
+
+* add Taskfile.yml ([6e49f09](https://github.com/dominickolbe/dominickolbe/commit/6e49f098b25e05b7539a906f6c619958c2db388e))
+
+
+### Chores
+
+* update dependencies ([4205663](https://github.com/dominickolbe/dominickolbe/commit/420566395bfd38c4dcc541fd41794fe3147f505f))
+
 ### [3.4.4](https://github.com/dominickolbe/dominickolbe/compare/v3.4.3...v3.4.4) (2024-04-09)
 
 ### [3.4.3](https://github.com/dominickolbe/dominickolbe/compare/v3.4.2...v3.4.3) (2024-04-05)
