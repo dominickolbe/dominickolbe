@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [3.6.1](https://github.com/dominickolbe/dominickolbe/compare/v3.6.0...v3.6.1) (2024-09-12)
+
+
+### Chores
+
+* Update node and pnpm versions in integration workflow ([efb635b](https://github.com/dominickolbe/dominickolbe/commit/efb635b5228ec444b43fd0bb48e46709659cf889))
+
 ## [3.6.0](https://github.com/dominickolbe/dominickolbe/compare/v3.5.8...v3.6.0) (2024-09-12)
 
 
