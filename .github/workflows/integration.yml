@@ -12,8 +12,8 @@ jobs:
     strategy:
       matrix:
         os: [ubuntu-latest]
-        node-version: [18]
-        pnpm-version: [8]
+        node-version: [20]
+        pnpm-version: [9]
 
     steps:
       - name: Checkout
@@ -44,7 +44,7 @@ jobs:
             ${{ runner.os }}-pnpm-store-
 
       - name: Install dependencies
-        run: pnpm install --frozen-lockfile --recursive
+        run: pnpm install
 
       - name: Run tests - Check formatting with Prettier
         run: pnpm test
