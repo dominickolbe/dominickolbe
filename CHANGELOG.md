@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.6.0](https://github.com/dominickolbe/dominickolbe/compare/v3.5.8...v3.6.0) (2024-09-12)
+
+
+### Features
+
+* Add Mastodon link to user profile ([bec264a](https://github.com/dominickolbe/dominickolbe/commit/bec264a0ed62bc9d1085756b89d4c2125b86cbb6))
+
+
+### Chores
+
+* update dependencies ([3c8d1d1](https://github.com/dominickolbe/dominickolbe/commit/3c8d1d15333f1b25fbe4e39fa976d36cce055f3d))
+* Update node and pnpm versions in integration workflow ([338822d](https://github.com/dominickolbe/dominickolbe/commit/338822d13d66fe3cddfc05c42de7d5ca810d69bd))
+
 ### [3.5.8](https://github.com/dominickolbe/dominickolbe/compare/v3.5.7...v3.5.8) (2024-09-06)
 
 
