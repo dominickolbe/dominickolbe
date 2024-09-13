@@ -45,15 +45,7 @@ export const App = () => (
     >
       {content.email}
     </a>
-    <a
-      rel="me"
-      href="https://mastodon.social/@dominickolbe"
-      className={css`
-        display: none;
-      `}
-    >
-      Mastodon
-    </a>
+
     <div
       className={css`
         font-size: 0.75em;
