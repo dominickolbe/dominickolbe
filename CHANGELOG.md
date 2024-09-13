@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.7.0](https://github.com/dominickolbe/dominickolbe/compare/v3.6.1...v3.7.0) (2024-09-13)
+
+
+### Features
+
+* Add Mastodon link to user profile ([4ea7520](https://github.com/dominickolbe/dominickolbe/commit/4ea75205cfa6ed70c4b3c72b81d72b72189a9e21))
+
 ### [3.6.1](https://github.com/dominickolbe/dominickolbe/compare/v3.6.0...v3.6.1) (2024-09-12)
 
 
