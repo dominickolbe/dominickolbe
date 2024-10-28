@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [3.7.3](https://github.com/dominickolbe/dominickolbe/compare/v3.7.2...v3.7.3) (2024-10-28)
+
+
+### Chores
+
+* remove Plausible script from index.html ([085d32c](https://github.com/dominickolbe/dominickolbe/commit/085d32c83e854930ee55a1eba8f78a8899e0979b))
+* specify package manager version in package.json ([5f19036](https://github.com/dominickolbe/dominickolbe/commit/5f19036619901868641ef4cf04c29ce09ba78ee2))
+* update dependencies ([17dda3e](https://github.com/dominickolbe/dominickolbe/commit/17dda3e92b3ddf5090ff33dd308f3c97099fbdd4))
+
 ### [3.7.2](https://github.com/dominickolbe/dominickolbe/compare/v3.7.1...v3.7.2) (2024-10-06)
 
 
