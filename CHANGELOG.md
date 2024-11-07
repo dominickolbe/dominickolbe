@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [3.7.4](https://github.com/dominickolbe/dominickolbe/compare/v3.7.3...v3.7.4) (2024-11-07)
+
+
+### Chores
+
+* update analytics script in index.html ([06e7fb1](https://github.com/dominickolbe/dominickolbe/commit/06e7fb1160c255b89d2b38adb7d113848d281b73))
+* update dependencies ([267a714](https://github.com/dominickolbe/dominickolbe/commit/267a714f875d80af9f8284310e988fbedb0e2c0c))
+
 ### [3.7.3](https://github.com/dominickolbe/dominickolbe/compare/v3.7.2...v3.7.3) (2024-10-28)
 
 
