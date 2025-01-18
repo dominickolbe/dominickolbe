@@ -96,4 +96,4 @@ git push --follow-tags origin main
 
 ## LICENSE
 
-Copyright © 2024 [Dominic Kolbe](https://dominickolbe.dk) :de:
+Copyright © 2025 [Dominic Kolbe](https://dominickolbe.dk) :de:
