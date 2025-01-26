@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [3.7.10](https://github.com/dominickolbe/dominickolbe/compare/v3.7.9...v3.7.10) (2025-01-26)
+
+
+### Chores
+
+* update dependencies ([c7d489e](https://github.com/dominickolbe/dominickolbe/commit/c7d489eea2cec21a6763ea7696b4461e2d668a9e))
+
 ### [3.7.9](https://github.com/dominickolbe/dominickolbe/compare/v3.7.8...v3.7.9) (2025-01-24)
 
 
