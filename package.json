@@ -23,7 +23,7 @@
     "react-scripts": "5.0.1"
   },
   "devDependencies": {
-    "@types/node": "22.10.10",
+    "@types/node": "22.13.1",
     "@types/react": "19.0.8",
     "@types/react-dom": "19.0.3",
     "prettier": "3.4.2",
@@ -41,5 +41,5 @@
       "last 1 safari version"
     ]
   },
-  "packageManager": "pnpm@9.15.4"
+  "packageManager": "pnpm@10.2.0"
 }
