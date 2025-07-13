@@ -1,14 +1,16 @@
-import { createRoot } from "react-dom/client";
+import "./styles/global.css";
+
 import { App } from "./App";
-import "./index.css";
+import { createRoot } from "react-dom/client";
+import { initializeAnalytics } from "./utils/analytics";
 
 const container = document.getElementById("root");
-const root = createRoot(container!);
+if (!container) {
+  throw new Error("Root element not found");
+}
+
+const root = createRoot(container);
 root.render(<App />);
 
-// Vercel Web Analytics
-try {
-  import("@vercel/analytics").then((vercel) => vercel.inject());
-} catch (error) {
-  console.error(error);
-}
+// Initialize analytics
+initializeAnalytics();

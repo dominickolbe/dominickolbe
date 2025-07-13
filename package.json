@@ -11,9 +11,12 @@
   "scripts": {
     "start": "REACT_APP_VERSION=$npm_package_version REACT_APP_BUILD_TIME=$(date '+%c') react-scripts start",
     "build": "REACT_APP_VERSION=$npm_package_version REACT_APP_BUILD_TIME=$(date '+%c') BUILD_PATH=./dist react-scripts build",
+    "build:analyze": "REACT_APP_VERSION=$npm_package_version REACT_APP_BUILD_TIME=$(date '+%c') BUILD_PATH=./dist GENERATE_SOURCEMAP=false react-scripts build",
     "prettier:check": "prettier --check \"**/*.{js,jsx,ts,tsx,json,css,html}\"",
     "prettier:fix": "prettier --write \"**/*.{js,jsx,ts,tsx,json,css,html}\"",
-    "test": "pnpm run prettier:check"
+    "test": "pnpm run prettier:check",
+    "type-check": "tsc --noEmit",
+    "lint": "pnpm run prettier:check && pnpm run type-check"
   },
   "dependencies": {
     "@emotion/css": "11.13.5",
@@ -23,11 +26,11 @@
     "react-scripts": "5.0.1"
   },
   "devDependencies": {
-    "@types/node": "22.13.17",
-    "@types/react": "19.0.12",
-    "@types/react-dom": "19.0.4",
-    "prettier": "3.5.3",
-    "typescript": "5.8.2"
+    "@types/node": "24.0.13",
+    "@types/react": "19.1.8",
+    "@types/react-dom": "19.1.6",
+    "prettier": "3.6.2",
+    "typescript": "5.8.3"
   },
   "browserslist": {
     "production": [
