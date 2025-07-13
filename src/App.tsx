@@ -1,6 +1,7 @@
 import { Suspense, lazy } from "react";
 
 import { ContentData } from "./types";
+import { LoadingSpinner } from "./components/LoadingSpinner";
 import content from "./assets/content.json";
 import { useAppConfig } from "./hooks/useAppConfig";
 
@@ -8,14 +9,14 @@ import { useAppConfig } from "./hooks/useAppConfig";
 const Portfolio = lazy(() =>
   import("./components/Portfolio").then((module) => ({
     default: module.Portfolio,
-  })),
+  }))
 );
 
 export const App = () => {
   const config = useAppConfig();
 
   return (
-    <Suspense fallback={<div>Loading...</div>}>
+    <Suspense fallback={<LoadingSpinner />}>
       <Portfolio
         content={content as ContentData}
         version={config.version}
