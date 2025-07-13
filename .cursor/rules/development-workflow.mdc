@@ -1,0 +1,44 @@
+# Development Workflow
+
+## Package Management
+
+- Use PNPM as the package manager (specified in [package.json](mdc:package.json))
+- Run `pnpm install` to install dependencies
+- Use `pnpm start` to start development server
+- Use `pnpm build` to create production build
+
+## Code Quality
+
+- Prettier is configured for code formatting
+- Run `pnpm prettier:check` to check formatting
+- Run `pnpm prettier:fix` to auto-fix formatting issues
+- The test script runs prettier checks
+
+## Build Process
+
+- Build output goes to `./dist` directory
+- Environment variables are injected during build:
+  - `REACT_APP_VERSION` from package.json version
+  - `REACT_APP_BUILD_TIME` with current timestamp
+- Build path is configured as `./dist`
+
+## Dependency Updates
+
+- Use the Taskfile for automated dependency updates
+- Run `task update-dependencies` to:
+  - Pull latest changes
+  - Update all dependencies
+  - Run tests and build
+  - Commit changes and create version tag
+  - Push to main branch
+
+## Environment Configuration
+
+- Environment variables are managed in [src/constants.ts](mdc:src/constants.ts)
+- Production/development environment detection
+- Version and build time tracking
+  description:
+  globs:
+  alwaysApply: false
+
+---

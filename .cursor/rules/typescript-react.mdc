@@ -1,0 +1,39 @@
+# TypeScript and React Coding Standards
+
+## General Guidelines
+
+- Use TypeScript strict mode (enabled in [tsconfig.json](mdc:tsconfig.json))
+- Use React 19 with JSX transform (no need to import React)
+- Use Emotion CSS for styling with the `css` prop
+- Follow the existing code style patterns
+
+## Component Structure
+
+- Use functional components with arrow function syntax
+- Export components as named exports
+- Use TypeScript interfaces for props when needed
+- Keep components simple and focused
+
+## Styling Patterns
+
+- Use Emotion CSS with template literals
+- Follow the existing styling patterns in [src/App.tsx](mdc:src/App.tsx)
+- Use semantic class names and consistent spacing
+- Prefer CSS-in-JS over external stylesheets
+
+## Import/Export Patterns
+
+- Use named imports/exports
+- Import JSON files directly (as seen with content.json)
+- Import constants from [src/constants.ts](mdc:src/constants.ts)
+
+## Environment Variables
+
+- Access environment variables through the constants file
+- Use the REACT*APP* prefix for custom environment variables
+- Handle undefined values gracefully with fallbacks
+  description:
+  globs:
+  alwaysApply: false
+
+---

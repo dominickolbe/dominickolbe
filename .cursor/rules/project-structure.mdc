@@ -1,0 +1,35 @@
+# Project Structure Guide
+
+This is a React TypeScript personal portfolio website for Dominic Kolbe.
+
+## Key Files
+
+- [package.json](mdc:package.json) - Project configuration and dependencies
+- [src/App.tsx](mdc:src/App.tsx) - Main React component
+- [src/constants.ts](mdc:src/constants.ts) - Environment variables and app constants
+- [src/assets/content.json](mdc:src/assets/content.json) - Content data for the portfolio
+- [tsconfig.json](mdc:tsconfig.json) - TypeScript configuration
+- [Taskfile.yml](mdc:Taskfile.yml) - Task automation for dependency updates
+
+## Project Structure
+
+- `src/` - Source code directory
+  - `App.tsx` - Main application component
+  - `constants.ts` - Environment and app constants
+  - `assets/` - Static assets including content and fonts
+  - `index.tsx` - Application entry point
+- `public/` - Public assets served directly
+- `.cursor/rules/` - Cursor IDE rules
+
+## Technology Stack
+
+- React 19.1.0 with TypeScript
+- Emotion CSS for styling
+- Vercel Analytics
+- PNPM package manager
+- Prettier for code formatting
+  description:
+  globs:
+  alwaysApply: false
+
+---

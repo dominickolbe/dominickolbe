@@ -1,0 +1,36 @@
+# Content Management
+
+## Content Structure
+
+- Portfolio content is stored in [src/assets/content.json](mdc:src/assets/content.json)
+- Content includes email, headline, and paragraph with HTML support
+- Content is imported directly into React components
+
+## Content Fields
+
+- `email`: Contact email address
+- `headline`: Main portfolio headline/title
+- `paragraph`: Detailed description with HTML markup support
+
+## Content Usage
+
+- Content is imported in [src/App.tsx](mdc:src/App.tsx) as a JSON module
+- HTML content is rendered using `dangerouslySetInnerHTML`
+- Links in content open in new tabs with `target="_blank"`
+
+## Content Updates
+
+- Modify [src/assets/content.json](mdc:src/assets/content.json) to update portfolio content
+- HTML is supported in the paragraph field for rich formatting
+- Email links are automatically generated with mailto: protocol
+
+## Font Assets
+
+- Custom fonts are stored in [src/assets/fonts/](mdc:src/assets/fonts/)
+- Gotham font family with multiple formats (otf, woff, woff2)
+- Fonts are loaded through CSS imports
+  description:
+  globs:
+  alwaysApply: false
+
+---
