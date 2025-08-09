@@ -1,27 +1,18 @@
 import { Suspense, lazy } from "react";
 
-import { ContentData } from "./types";
 import { LoadingSpinner } from "./components/LoadingSpinner";
-import content from "./assets/content.json";
-import { useAppConfig } from "./hooks/useAppConfig";
 
-// Lazy load the Portfolio component for better performance
-const Portfolio = lazy(() =>
-  import("./components/Portfolio").then((module) => ({
-    default: module.Portfolio,
+// Lazy load components for better performance
+const VpnDetected = lazy(() =>
+  import("./components/VpnDetected").then((module) => ({
+    default: module.VpnDetected,
   }))
 );
 
 export const App = () => {
-  const config = useAppConfig();
-
   return (
     <Suspense fallback={<LoadingSpinner />}>
-      <Portfolio
-        content={content as ContentData}
-        version={config.version}
-        buildTime={config.buildTime}
-      />
+      <VpnDetected />
     </Suspense>
   );
 };
